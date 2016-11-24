@@ -18,7 +18,7 @@ import android.util.Log;
 public class AudioCall {
 
     private static final String LOG_TAG = "AudioCall";
-    private static final int SAMPLE_RATE = 11025; // Hertz
+    private static final int SAMPLE_RATE = 8000;//11025; // Hertz
     private static final int SAMPLE_INTERVAL = 20; // Milliseconds
     private static final int SAMPLE_SIZE = 2; // Bytes
     private static final int BUF_SIZE = SAMPLE_INTERVAL * SAMPLE_INTERVAL * SAMPLE_SIZE * 2; //Bytes
