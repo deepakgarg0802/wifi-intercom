@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Minor project</string>
+    <string name="app_name">Wifi Intercom</string>
     <string name="action_settings">Settings</string>
     <string name="enterName">Enter a display name:</string>
     <string name="submitName">Start</string>

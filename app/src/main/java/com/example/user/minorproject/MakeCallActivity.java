@@ -11,6 +11,7 @@ import java.net.UnknownHostException;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -18,7 +19,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MakeCallActivity extends Activity {
+public class MakeCallActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = "MakeCall";
     private static final int BROADCAST_PORT = 50002;
